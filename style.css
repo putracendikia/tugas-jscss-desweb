@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E64848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.input-box {
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#alamat {
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: #E64848;
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
